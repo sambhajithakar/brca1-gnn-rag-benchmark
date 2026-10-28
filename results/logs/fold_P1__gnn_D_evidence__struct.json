@@ -1,0 +1,117 @@
+{
+ "model": "gnn_D_evidence",
+ "partition": "fold_P1",
+ "subset": "struct",
+ "graph_variant": "heavy8_with_partner",
+ "folds": {
+  "0": {
+   "inner_scores": [
+    0.5882191504105976,
+    0.584989044605714
+   ],
+   "n_layers": 2,
+   "epochs": [
+    168,
+    157,
+    87,
+    111,
+    157
+   ]
+  },
+  "1": {
+   "inner_scores": [
+    0.5753566753402553,
+    0.5949991251149832
+   ],
+   "n_layers": 3,
+   "epochs": [
+    216,
+    97,
+    108,
+    73,
+    125
+   ]
+  },
+  "2": {
+   "inner_scores": [
+    0.58120992770183,
+    0.5975163942091329
+   ],
+   "n_layers": 3,
+   "epochs": [
+    166,
+    72,
+    91,
+    91,
+    127
+   ]
+  },
+  "3": {
+   "inner_scores": [
+    0.6149264275052093,
+    0.5986118684062444
+   ],
+   "n_layers": 2,
+   "epochs": [
+    147,
+    164,
+    119,
+    183,
+    128
+   ]
+  },
+  "4": {
+   "inner_scores": [
+    0.5477061349983986,
+    0.5481047327394032
+   ],
+   "n_layers": 3,
+   "epochs": [
+    99,
+    90,
+    142,
+    107,
+    92
+   ]
+  }
+ },
+ "leakage_checks": {
+  "0": {
+   "test_residue_docs": 0,
+   "own_residue_docs": 0,
+   "findlay_docs": 0,
+   "same_variant_docs": 0,
+   "n_retrievals": 446766
+  },
+  "1": {
+   "test_residue_docs": 0,
+   "own_residue_docs": 0,
+   "findlay_docs": 0,
+   "same_variant_docs": 0,
+   "n_retrievals": 440385
+  },
+  "2": {
+   "test_residue_docs": 0,
+   "own_residue_docs": 0,
+   "findlay_docs": 0,
+   "same_variant_docs": 0,
+   "n_retrievals": 442198
+  },
+  "3": {
+   "test_residue_docs": 0,
+   "own_residue_docs": 0,
+   "findlay_docs": 0,
+   "same_variant_docs": 0,
+   "n_retrievals": 450222
+  },
+  "4": {
+   "test_residue_docs": 0,
+   "own_residue_docs": 0,
+   "findlay_docs": 0,
+   "same_variant_docs": 0,
+   "n_retrievals": 449145
+  }
+ },
+ "spearman_oof": 0.633674181581416,
+ "seconds": 92.8
+}

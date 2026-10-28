@@ -1,0 +1,9 @@
+{
+ "model": "zs_phylop",
+ "partition": "fold_P0",
+ "subset": "all",
+ "graph_variant": null,
+ "folds": {},
+ "spearman_oof": 0.3778428442139946,
+ "seconds": 0.0
+}

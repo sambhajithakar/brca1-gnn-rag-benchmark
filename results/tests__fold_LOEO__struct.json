@@ -1,0 +1,47 @@
+{
+ "partition": "fold_LOEO",
+ "subset": "struct",
+ "n_variants": 1734,
+ "n_residues": 308,
+ "H1_primary": {
+  "a": "gnn_C_struct_annot",
+  "b": "gnn_C_nograph",
+  "delta_spearman": 0.01137705624876173,
+  "ci_lo": -0.0005722690128362461,
+  "ci_hi": 0.023935033590926687,
+  "p_boot": 0.059
+ },
+ "secondary": [
+  {
+   "id": "S-a",
+   "a": "gnn_C_struct_annot",
+   "b": "ridge_seqevo",
+   "delta_spearman": 0.0140338537265563,
+   "ci_lo": -0.005596799409236119,
+   "ci_hi": 0.034471892363273984,
+   "p_boot": 0.167,
+   "p_holm": 0.198
+  },
+  {
+   "id": "S-b",
+   "a": "gnn_C_struct_annot",
+   "b": "zs_alphamissense",
+   "delta_spearman": 0.03213040629294328,
+   "ci_lo": 0.004273614383823668,
+   "ci_hi": 0.060411594841567974,
+   "p_boot": 0.033,
+   "p_holm": 0.099
+  },
+  {
+   "id": "S-e",
+   "a": "gnn_C_struct_annot",
+   "b": "lgbm_struct",
+   "delta_spearman": 0.019232947561631963,
+   "ci_lo": -0.003446701983250255,
+   "ci_hi": 0.04184999803003296,
+   "p_boot": 0.099,
+   "p_holm": 0.198
+  }
+ ],
+ "best_supervised_nongraph": "ridge_seqevo"
+}

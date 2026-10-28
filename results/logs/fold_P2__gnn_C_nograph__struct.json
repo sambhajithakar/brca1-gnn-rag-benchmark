@@ -1,0 +1,60 @@
+{
+ "model": "gnn_C_nograph",
+ "partition": "fold_P2",
+ "subset": "struct",
+ "graph_variant": "heavy8_with_partner",
+ "folds": {
+  "0": {
+   "n_layers": 0,
+   "epochs": [
+    71,
+    77,
+    254,
+    222,
+    176
+   ]
+  },
+  "1": {
+   "n_layers": 0,
+   "epochs": [
+    76,
+    94,
+    204,
+    116,
+    53
+   ]
+  },
+  "2": {
+   "n_layers": 0,
+   "epochs": [
+    61,
+    86,
+    197,
+    137,
+    243
+   ]
+  },
+  "3": {
+   "n_layers": 0,
+   "epochs": [
+    126,
+    106,
+    50,
+    65,
+    163
+   ]
+  },
+  "4": {
+   "n_layers": 0,
+   "epochs": [
+    83,
+    71,
+    168,
+    156,
+    143
+   ]
+  }
+ },
+ "spearman_oof": 0.6206496561068011,
+ "seconds": 12.8
+}

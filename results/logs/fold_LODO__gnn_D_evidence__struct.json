@@ -1,0 +1,54 @@
+{
+ "model": "gnn_D_evidence",
+ "partition": "fold_LODO",
+ "subset": "struct",
+ "graph_variant": "heavy8_with_partner",
+ "folds": {
+  "0": {
+   "inner_scores": [
+    0.6077769760041236,
+    0.6105080570941275
+   ],
+   "n_layers": 3,
+   "epochs": [
+    92,
+    261,
+    66,
+    198,
+    65
+   ]
+  },
+  "1": {
+   "inner_scores": [
+    0.5339703258535216,
+    0.5442917825658234
+   ],
+   "n_layers": 3,
+   "epochs": [
+    65,
+    182,
+    128,
+    56,
+    46
+   ]
+  }
+ },
+ "leakage_checks": {
+  "0": {
+   "test_residue_docs": 0,
+   "own_residue_docs": 0,
+   "findlay_docs": 0,
+   "same_variant_docs": 0,
+   "n_retrievals": 281008
+  },
+  "1": {
+   "test_residue_docs": 0,
+   "own_residue_docs": 0,
+   "findlay_docs": 0,
+   "same_variant_docs": 0,
+   "n_retrievals": 276171
+  }
+ },
+ "spearman_oof": 0.2671508125944719,
+ "seconds": 33.9
+}

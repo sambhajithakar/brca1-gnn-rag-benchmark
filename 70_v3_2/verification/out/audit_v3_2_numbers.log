@@ -1,0 +1,43 @@
+PASS H1 | +0.007 (−0.008 to 0.021
+PASS S-b CI | 0.040 (0.011–0.070; Holm p = 0.036)
+PASS P0 C-ctl | +0.013 (−0.0004 to 0.025; uncorrected p = 0.057)
+PASS P0 ctl-nog | −0.005 (−0.016 to 0.005)
+PASS seqonly-ctl | +0.009 (−0.002 to 0.021)
+PASS C-seqonly | +0.003 (−0.005 to 0.012)
+PASS T3 P1 C_minus_nograph | +0.014 (0.003 to 0.025), p = 0.016
+PASS T3 P1 C_minus_depthctl | +0.009 (−0.002 to 0.019), p = 0.12
+PASS T3 P1 ctl-nog | +0.005 (−0.002 to 0.012)
+PASS T3 P1 rhos | | 0.627 | 0.614 | 0.619 |
+PASS T3 P2 C_minus_nograph | +0.006 (−0.004 to 0.016), p = 0.25
+PASS T3 P2 C_minus_depthctl | +0.012 (0.001 to 0.022), p = 0.031
+PASS T3 P2 ctl-nog | −0.006 (−0.014 to 0.003)
+PASS T3 P2 rhos | | 0.626 | 0.621 | 0.615 |
+PASS T3 LODO C_minus_nograph | +0.002 (−0.013 to 0.017), p = 0.78
+PASS T3 LODO C_minus_depthctl | +0.005 (−0.006 to 0.016), p = 0.33
+PASS T3 LODO ctl-nog | −0.003 (−0.013 to 0.006)
+PASS T3 LODO rhos | | 0.571 | 0.569 | 0.566 |
+PASS T3 LOEO C_minus_nograph | +0.011 (−0.001 to 0.024), p = 0.059
+PASS T3 LOEO C_minus_depthctl | +0.006 (−0.005 to 0.018), p = 0.32
+PASS T3 LOEO ctl-nog | +0.006 (−0.003 to 0.015)
+PASS T3 LOEO rhos | | 0.618 | 0.607 | 0.613 |
+PASS T3 Random (reference only) C_minus_nograph | +0.016 (0.006 to 0.026), p = 0.001
+PASS T3 Random (reference only) C_minus_depthctl | +0.014 (0.004 to 0.023), p = 0.004
+PASS T3 Random (reference only) ctl-nog | +0.002 (−0.003 to 0.008)
+PASS T3 Random (reference only) rhos | | 0.656 | 0.640 | 0.643 |
+PASS S11 6 Å | +0.017 (0.004 to 0.029)
+PASS S11 no partner | +0.016 (0.003 to 0.029)
+PASS S11 Cα | +0.015 (0.003 to 0.027)
+PASS S11 GAT | +0.013 (0.002 to 0.024)
+PASS E1 Model C | −0.051 (−0.135 to 0.038)
+PASS E1 LGBM | +0.008 (−0.052 to 0.078)
+PASS E1 nograph | −0.027 (−0.112 to 0.064)
+PASS E1 ctl | −0.047 (−0.134 to 0.042)
+PASS E1 D | −0.056 (−0.156 to 0.046)
+PASS E1 DiD C | +0.063, 0.010 to 0.118
+PASS E3 LGBM | +0.056, 0.002 to 0.109
+PASS E4 findlay | 0.901 (0.875–0.919)
+PASS E4 C | 0.899 (0.880–0.913)
+PASS E4 AM | 0.888 (0.867–0.907)
+PASS E4 lgbm_struct | 0.907 (0.889–0.924)
+PASS E4 n calls | 3,128 calls
+0 failures of 42

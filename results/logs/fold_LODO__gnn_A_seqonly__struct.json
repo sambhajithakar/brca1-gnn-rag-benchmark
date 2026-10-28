@@ -1,0 +1,30 @@
+{
+ "model": "gnn_A_seqonly",
+ "partition": "fold_LODO",
+ "subset": "struct",
+ "graph_variant": "heavy8_with_partner",
+ "folds": {
+  "0": {
+   "n_layers": 0,
+   "epochs": [
+    131,
+    300,
+    266,
+    209,
+    161
+   ]
+  },
+  "1": {
+   "n_layers": 0,
+   "epochs": [
+    78,
+    62,
+    64,
+    73,
+    112
+   ]
+  }
+ },
+ "spearman_oof": 0.5423040343433392,
+ "seconds": 4.4
+}

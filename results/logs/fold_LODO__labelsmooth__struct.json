@@ -1,0 +1,18 @@
+{
+ "model": "labelsmooth",
+ "partition": "fold_LODO",
+ "subset": "struct",
+ "graph_variant": null,
+ "folds": {
+  "0": {
+   "chosen_k": 5,
+   "inner_score": 0.599869250165597
+  },
+  "1": {
+   "chosen_k": 5,
+   "inner_score": 0.5376500816247053
+  }
+ },
+ "spearman_oof": 0.5201774155136347,
+ "seconds": 6.3
+}

@@ -1,0 +1,77 @@
+{
+ "partition": "fold_LODO",
+ "subset": "struct",
+ "n_variants": 1734,
+ "n_residues": 308,
+ "H1_primary": {
+  "a": "gnn_C_struct_annot",
+  "b": "gnn_C_nograph",
+  "delta_spearman": 0.002275994020591643,
+  "ci_lo": -0.013206045724055695,
+  "ci_hi": 0.01664506864791119,
+  "p_boot": 0.776
+ },
+ "secondary": [
+  {
+   "id": "S-a",
+   "a": "gnn_C_struct_annot",
+   "b": "lgbm_seqevo",
+   "delta_spearman": 0.014398544603263841,
+   "ci_lo": -0.01613286403196989,
+   "ci_hi": 0.044127406158040006,
+   "p_boot": 0.373,
+   "p_holm": 1.0
+  },
+  {
+   "id": "S-b",
+   "a": "gnn_C_struct_annot",
+   "b": "zs_alphamissense",
+   "delta_spearman": -0.015137206627926392,
+   "ci_lo": -0.05241121106406692,
+   "ci_hi": 0.020532692683669317,
+   "p_boot": 0.417,
+   "p_holm": 1.0
+  },
+  {
+   "id": "S-c",
+   "a": "gnn_B_struct",
+   "b": "gnn_A_seqonly",
+   "delta_spearman": -0.1477605497043482,
+   "ci_lo": -0.20492150079380478,
+   "ci_hi": -0.09133484176541243,
+   "p_boot": 0.0005,
+   "p_holm": 0.003
+  },
+  {
+   "id": "S-e",
+   "a": "gnn_C_struct_annot",
+   "b": "lgbm_struct",
+   "delta_spearman": -0.005996051370812272,
+   "ci_lo": -0.04033447471839942,
+   "ci_hi": 0.026590687695250245,
+   "p_boot": 0.69,
+   "p_holm": 1.0
+  },
+  {
+   "id": "S-f",
+   "a": "gnn_C_struct_annot",
+   "b": "labelsmooth",
+   "delta_spearman": 0.05098267114682864,
+   "ci_lo": 0.0161849777948447,
+   "ci_hi": 0.08730472498662704,
+   "p_boot": 0.004,
+   "p_holm": 0.016
+  },
+  {
+   "id": "S-d",
+   "a": "gnn_D_evidence",
+   "b": "gnn_C_struct_annot",
+   "delta_spearman": -0.3040092740659916,
+   "ci_lo": -0.37716065433774243,
+   "ci_hi": -0.2316644376171181,
+   "p_boot": 0.0005,
+   "p_holm": 0.003
+  }
+ ],
+ "best_supervised_nongraph": "lgbm_seqevo"
+}

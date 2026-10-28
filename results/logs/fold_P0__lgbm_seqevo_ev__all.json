@@ -1,0 +1,117 @@
+{
+ "model": "lgbm_seqevo_ev",
+ "partition": "fold_P0",
+ "subset": "all",
+ "graph_variant": null,
+ "folds": {
+  "0": {
+   "chosen": {
+    "num_leaves": 7,
+    "n_estimators": 200
+   },
+   "inner_scores": [
+    0.6099533003546954,
+    0.6062368441658623,
+    0.6019388386359378,
+    0.6075250891312196,
+    0.6003757380810008,
+    0.5964613684277578
+   ]
+  },
+  "1": {
+   "chosen": {
+    "num_leaves": 7,
+    "n_estimators": 400
+   },
+   "inner_scores": [
+    0.5726100635382617,
+    0.5747410513514069,
+    0.570967173448769,
+    0.5711996171973556,
+    0.5681108604236692,
+    0.5621967165104051
+   ]
+  },
+  "2": {
+   "chosen": {
+    "num_leaves": 7,
+    "n_estimators": 800
+   },
+   "inner_scores": [
+    0.5912296938515524,
+    0.5912349351880061,
+    0.5912851246954607,
+    0.5904552818937299,
+    0.590421512180991,
+    0.5862691502437172
+   ]
+  },
+  "3": {
+   "chosen": {
+    "num_leaves": 7,
+    "n_estimators": 200
+   },
+   "inner_scores": [
+    0.6145201726624715,
+    0.6091952031119936,
+    0.5986322660063036,
+    0.6081199091529222,
+    0.5960198127691051,
+    0.5858069323135169
+   ]
+  },
+  "4": {
+   "chosen": {
+    "num_leaves": 7,
+    "n_estimators": 200
+   },
+   "inner_scores": [
+    0.6151262481362154,
+    0.603768751947154,
+    0.5895089896750694,
+    0.6026603574895122,
+    0.5933261740519604,
+    0.5809046568554193
+   ]
+  }
+ },
+ "leakage_checks": {
+  "0": {
+   "test_residue_docs": 0,
+   "own_residue_docs": 0,
+   "findlay_docs": 0,
+   "same_variant_docs": 0,
+   "n_retrievals": 462041
+  },
+  "1": {
+   "test_residue_docs": 0,
+   "own_residue_docs": 0,
+   "findlay_docs": 0,
+   "same_variant_docs": 0,
+   "n_retrievals": 454141
+  },
+  "2": {
+   "test_residue_docs": 0,
+   "own_residue_docs": 0,
+   "findlay_docs": 0,
+   "same_variant_docs": 0,
+   "n_retrievals": 463382
+  },
+  "3": {
+   "test_residue_docs": 0,
+   "own_residue_docs": 0,
+   "findlay_docs": 0,
+   "same_variant_docs": 0,
+   "n_retrievals": 421676
+  },
+  "4": {
+   "test_residue_docs": 0,
+   "own_residue_docs": 0,
+   "findlay_docs": 0,
+   "same_variant_docs": 0,
+   "n_retrievals": 434448
+  }
+ },
+ "spearman_oof": 0.6102674754466884,
+ "seconds": 594.5
+}

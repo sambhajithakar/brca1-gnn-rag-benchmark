@@ -1,0 +1,9 @@
+{
+ "model": "zs_alphamissense",
+ "partition": "fold_P0",
+ "subset": "all",
+ "graph_variant": null,
+ "folds": {},
+ "spearman_oof": 0.5841594614693715,
+ "seconds": 0.0
+}

@@ -1,0 +1,30 @@
+{
+ "model": "labelsmooth",
+ "partition": "fold_P0",
+ "subset": "struct",
+ "graph_variant": null,
+ "folds": {
+  "0": {
+   "chosen_k": 10,
+   "inner_score": 0.5927976130087458
+  },
+  "1": {
+   "chosen_k": 5,
+   "inner_score": 0.5715127366923405
+  },
+  "2": {
+   "chosen_k": 10,
+   "inner_score": 0.5985866002430595
+  },
+  "3": {
+   "chosen_k": 10,
+   "inner_score": 0.5900399482501053
+  },
+  "4": {
+   "chosen_k": 5,
+   "inner_score": 0.5990573710829115
+  }
+ },
+ "spearman_oof": 0.6102531808438553,
+ "seconds": 24.7
+}

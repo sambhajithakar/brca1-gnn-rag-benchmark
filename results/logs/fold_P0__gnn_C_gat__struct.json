@@ -1,0 +1,60 @@
+{
+ "model": "gnn_C_gat",
+ "partition": "fold_P0",
+ "subset": "struct",
+ "graph_variant": "heavy8_with_partner",
+ "folds": {
+  "0": {
+   "n_layers": 2,
+   "epochs": [
+    58,
+    59,
+    121,
+    120,
+    107
+   ]
+  },
+  "1": {
+   "n_layers": 2,
+   "epochs": [
+    80,
+    58,
+    78,
+    152,
+    144
+   ]
+  },
+  "2": {
+   "n_layers": 2,
+   "epochs": [
+    172,
+    105,
+    208,
+    133,
+    83
+   ]
+  },
+  "3": {
+   "n_layers": 2,
+   "epochs": [
+    180,
+    57,
+    173,
+    96,
+    179
+   ]
+  },
+  "4": {
+   "n_layers": 2,
+   "epochs": [
+    83,
+    170,
+    131,
+    121,
+    113
+   ]
+  }
+ },
+ "spearman_oof": 0.6266493716607736,
+ "seconds": 99.0
+}

@@ -1,0 +1,18 @@
+{
+ "seqonly_minus_depthctl": {
+  "a": "seqonly",
+  "b": "depthctl",
+  "delta_spearman": 0.009479610095236568,
+  "ci_lo": -0.0016804675598268703,
+  "ci_hi": 0.020893058945423752,
+  "p_boot": 0.098
+ },
+ "C_minus_seqonly": {
+  "a": "C",
+  "b": "seqonly",
+  "delta_spearman": 0.003049302384235286,
+  "ci_lo": -0.005291959869425383,
+  "ci_hi": 0.01176702355127192,
+  "p_boot": 0.502
+ }
+}

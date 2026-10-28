@@ -1,0 +1,97 @@
+{
+ "model": "gnn_D_nograph",
+ "partition": "fold_P0",
+ "subset": "struct",
+ "graph_variant": "heavy8_with_partner",
+ "folds": {
+  "0": {
+   "n_layers": 0,
+   "epochs": [
+    83,
+    133,
+    104,
+    170,
+    117
+   ]
+  },
+  "1": {
+   "n_layers": 0,
+   "epochs": [
+    85,
+    209,
+    100,
+    197,
+    178
+   ]
+  },
+  "2": {
+   "n_layers": 0,
+   "epochs": [
+    300,
+    151,
+    169,
+    59,
+    78
+   ]
+  },
+  "3": {
+   "n_layers": 0,
+   "epochs": [
+    136,
+    227,
+    98,
+    96,
+    189
+   ]
+  },
+  "4": {
+   "n_layers": 0,
+   "epochs": [
+    103,
+    65,
+    124,
+    50,
+    300
+   ]
+  }
+ },
+ "leakage_checks": {
+  "0": {
+   "test_residue_docs": 0,
+   "own_residue_docs": 0,
+   "findlay_docs": 0,
+   "same_variant_docs": 0,
+   "n_retrievals": 461144
+  },
+  "1": {
+   "test_residue_docs": 0,
+   "own_residue_docs": 0,
+   "findlay_docs": 0,
+   "same_variant_docs": 0,
+   "n_retrievals": 452526
+  },
+  "2": {
+   "test_residue_docs": 0,
+   "own_residue_docs": 0,
+   "findlay_docs": 0,
+   "same_variant_docs": 0,
+   "n_retrievals": 461917
+  },
+  "3": {
+   "test_residue_docs": 0,
+   "own_residue_docs": 0,
+   "findlay_docs": 0,
+   "same_variant_docs": 0,
+   "n_retrievals": 420239
+  },
+  "4": {
+   "test_residue_docs": 0,
+   "own_residue_docs": 0,
+   "findlay_docs": 0,
+   "same_variant_docs": 0,
+   "n_retrievals": 432890
+  }
+ },
+ "spearman_oof": 0.616091755197189,
+ "seconds": 48.7
+}

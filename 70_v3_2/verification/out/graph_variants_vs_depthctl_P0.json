@@ -1,0 +1,135 @@
+{
+ "gnn_C_struct_annot": {
+  "rho": 0.6263249740683375,
+  "minus_depthctl": {
+   "a": "gnn_C_struct_annot",
+   "b": "depthctl",
+   "delta_spearman": 0.012528912479471854,
+   "ci_lo": -0.0004329964843548913,
+   "ci_hi": 0.02528566836792754,
+   "p_boot": 0.057
+  },
+  "minus_nograph": {
+   "a": "gnn_C_struct_annot",
+   "b": "nograph",
+   "delta_spearman": 0.007224330677937929,
+   "ci_lo": -0.007807334886469774,
+   "ci_hi": 0.021151065853055234,
+   "p_boot": 0.344
+  }
+ },
+ "gnn_C_struct_annot_heavy6_with_partner": {
+  "rho": 0.6306679517622946,
+  "minus_depthctl": {
+   "a": "gnn_C_struct_annot_heavy6_with_partner",
+   "b": "depthctl",
+   "delta_spearman": 0.01687189017342894,
+   "ci_lo": 0.003970168869128407,
+   "ci_hi": 0.0293900810842554,
+   "p_boot": 0.011
+  },
+  "minus_nograph": {
+   "a": "gnn_C_struct_annot_heavy6_with_partner",
+   "b": "nograph",
+   "delta_spearman": 0.011567308371895013,
+   "ci_lo": -0.003260926426403504,
+   "ci_hi": 0.025782869933628737,
+   "p_boot": 0.124
+  }
+ },
+ "gnn_C_struct_annot_heavy10_with_partner": {
+  "rho": 0.6254592674257871,
+  "minus_depthctl": {
+   "a": "gnn_C_struct_annot_heavy10_with_partner",
+   "b": "depthctl",
+   "delta_spearman": 0.011663205836921375,
+   "ci_lo": -0.0008166201977573978,
+   "ci_hi": 0.023712504533455362,
+   "p_boot": 0.064
+  },
+  "minus_nograph": {
+   "a": "gnn_C_struct_annot_heavy10_with_partner",
+   "b": "nograph",
+   "delta_spearman": 0.00635862403538745,
+   "ci_lo": -0.008082014037060376,
+   "ci_hi": 0.02100918337649517,
+   "p_boot": 0.403
+  }
+ },
+ "gnn_C_struct_annot_heavy8_no_partner": {
+  "rho": 0.629693258327059,
+  "minus_depthctl": {
+   "a": "gnn_C_struct_annot_heavy8_no_partner",
+   "b": "depthctl",
+   "delta_spearman": 0.015897196738193342,
+   "ci_lo": 0.0030960962719638607,
+   "ci_hi": 0.028848309810938527,
+   "p_boot": 0.018
+  },
+  "minus_nograph": {
+   "a": "gnn_C_struct_annot_heavy8_no_partner",
+   "b": "nograph",
+   "delta_spearman": 0.010592614936659417,
+   "ci_lo": -0.004212688513478014,
+   "ci_hi": 0.025336111566946116,
+   "p_boot": 0.17
+  }
+ },
+ "gnn_C_struct_annot_ca8_with_partner": {
+  "rho": 0.6287792264567558,
+  "minus_depthctl": {
+   "a": "gnn_C_struct_annot_ca8_with_partner",
+   "b": "depthctl",
+   "delta_spearman": 0.014983164867890086,
+   "ci_lo": 0.0031696292973105254,
+   "ci_hi": 0.02672842047466975,
+   "p_boot": 0.011
+  },
+  "minus_nograph": {
+   "a": "gnn_C_struct_annot_ca8_with_partner",
+   "b": "nograph",
+   "delta_spearman": 0.009678583066356161,
+   "ci_lo": -0.00403937452735825,
+   "ci_hi": 0.022713020144328095,
+   "p_boot": 0.161
+  }
+ },
+ "gnn_C_struct_annot_sequence_only": {
+  "rho": 0.6232756716841023,
+  "minus_depthctl": {
+   "a": "gnn_C_struct_annot_sequence_only",
+   "b": "depthctl",
+   "delta_spearman": 0.009479610095236568,
+   "ci_lo": -0.0016804675598268703,
+   "ci_hi": 0.020893058945423752,
+   "p_boot": 0.098
+  },
+  "minus_nograph": {
+   "a": "gnn_C_struct_annot_sequence_only",
+   "b": "nograph",
+   "delta_spearman": 0.004175028293702643,
+   "ci_lo": -0.00924709384405766,
+   "ci_hi": 0.018572861453681307,
+   "p_boot": 0.584
+  }
+ },
+ "gnn_C_gat": {
+  "rho": 0.6266493716607736,
+  "minus_depthctl": {
+   "a": "gnn_C_gat",
+   "b": "depthctl",
+   "delta_spearman": 0.01285331007190793,
+   "ci_lo": 0.002213786227160716,
+   "ci_hi": 0.023939368004593082,
+   "p_boot": 0.017
+  },
+  "minus_nograph": {
+   "a": "gnn_C_gat",
+   "b": "nograph",
+   "delta_spearman": 0.0075487282703740055,
+   "ci_lo": -0.005730996298816124,
+   "ci_hi": 0.02041584543115484,
+   "p_boot": 0.271
+  }
+ }
+}

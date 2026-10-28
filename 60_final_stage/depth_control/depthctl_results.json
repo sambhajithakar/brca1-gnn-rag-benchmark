@@ -1,0 +1,235 @@
+{
+ "fold_P0": {
+  "spearman": {
+   "C": 0.6263,
+   "nograph": 0.6191,
+   "depthctl": 0.6138
+  },
+  "C_minus_depthctl": {
+   "a": "C",
+   "b": "depthctl",
+   "delta_spearman": 0.012528912479471854,
+   "ci_lo": -0.0004329964843548913,
+   "ci_hi": 0.02528566836792754,
+   "p_boot": 0.057
+  },
+  "depthctl_minus_nograph": {
+   "a": "depthctl",
+   "b": "nograph",
+   "delta_spearman": -0.005304581801533925,
+   "ci_lo": -0.01584231351800907,
+   "ci_hi": 0.0049734046292577,
+   "p_boot": 0.323
+  },
+  "C_minus_nograph_H1": {
+   "a": "C",
+   "b": "nograph",
+   "delta_spearman": 0.007224330677937929,
+   "ci_lo": -0.007807334886469774,
+   "ci_hi": 0.021151065853055234,
+   "p_boot": 0.344
+  },
+  "depthctl_layers": [
+   2,
+   2,
+   3,
+   3,
+   3
+  ]
+ },
+ "fold_P1": {
+  "spearman": {
+   "C": 0.6272,
+   "nograph": 0.6136,
+   "depthctl": 0.6186
+  },
+  "C_minus_depthctl": {
+   "a": "C",
+   "b": "depthctl",
+   "delta_spearman": 0.008678343922015164,
+   "ci_lo": -0.002320185647430001,
+   "ci_hi": 0.019392505939088433,
+   "p_boot": 0.12
+  },
+  "depthctl_minus_nograph": {
+   "a": "depthctl",
+   "b": "nograph",
+   "delta_spearman": 0.004949031747367827,
+   "ci_lo": -0.0018536885979484274,
+   "ci_hi": 0.012170719078111883,
+   "p_boot": 0.144
+  },
+  "C_minus_nograph_H1": {
+   "a": "C",
+   "b": "nograph",
+   "delta_spearman": 0.01362737566938299,
+   "ci_lo": 0.002773730185842746,
+   "ci_hi": 0.02475779595039659,
+   "p_boot": 0.016
+  },
+  "depthctl_layers": [
+   3,
+   3,
+   3,
+   2,
+   2
+  ]
+ },
+ "fold_P2": {
+  "spearman": {
+   "C": 0.6265,
+   "nograph": 0.6206,
+   "depthctl": 0.6148
+  },
+  "C_minus_depthctl": {
+   "a": "C",
+   "b": "depthctl",
+   "delta_spearman": 0.011648194294508918,
+   "ci_lo": 0.0009940993705254144,
+   "ci_hi": 0.022478044029618893,
+   "p_boot": 0.031
+  },
+  "depthctl_minus_nograph": {
+   "a": "depthctl",
+   "b": "nograph",
+   "delta_spearman": -0.005834424527807247,
+   "ci_lo": -0.013784817875005647,
+   "ci_hi": 0.0027307402911614354,
+   "p_boot": 0.155
+  },
+  "C_minus_nograph_H1": {
+   "a": "C",
+   "b": "nograph",
+   "delta_spearman": 0.005813769766701671,
+   "ci_lo": -0.003927927427705077,
+   "ci_hi": 0.015504619354258769,
+   "p_boot": 0.252
+  },
+  "depthctl_layers": [
+   3,
+   3,
+   2,
+   3,
+   2
+  ]
+ },
+ "fold_LODO": {
+  "spearman": {
+   "C": 0.5712,
+   "nograph": 0.5689,
+   "depthctl": 0.5658
+  },
+  "C_minus_depthctl": {
+   "a": "C",
+   "b": "depthctl",
+   "delta_spearman": 0.005365121380468962,
+   "ci_lo": -0.00555743587267761,
+   "ci_hi": 0.01603936323416273,
+   "p_boot": 0.328
+  },
+  "depthctl_minus_nograph": {
+   "a": "depthctl",
+   "b": "nograph",
+   "delta_spearman": -0.0030891273598773195,
+   "ci_lo": -0.012839219554862103,
+   "ci_hi": 0.006288029120005056,
+   "p_boot": 0.519
+  },
+  "C_minus_nograph_H1": {
+   "a": "C",
+   "b": "nograph",
+   "delta_spearman": 0.002275994020591643,
+   "ci_lo": -0.013206045724055695,
+   "ci_hi": 0.01664506864791119,
+   "p_boot": 0.776
+  },
+  "depthctl_layers": [
+   2,
+   2
+  ]
+ },
+ "fold_LOEO": {
+  "spearman": {
+   "C": 0.6184,
+   "nograph": 0.6071,
+   "depthctl": 0.6127
+  },
+  "C_minus_depthctl": {
+   "a": "C",
+   "b": "depthctl",
+   "delta_spearman": 0.005706394469721099,
+   "ci_lo": -0.005209845429614867,
+   "ci_hi": 0.01774775171712722,
+   "p_boot": 0.323
+  },
+  "depthctl_minus_nograph": {
+   "a": "depthctl",
+   "b": "nograph",
+   "delta_spearman": 0.005670661779040631,
+   "ci_lo": -0.003406050377815395,
+   "ci_hi": 0.015091535203703689,
+   "p_boot": 0.247
+  },
+  "C_minus_nograph_H1": {
+   "a": "C",
+   "b": "nograph",
+   "delta_spearman": 0.01137705624876173,
+   "ci_lo": -0.0005722690128362461,
+   "ci_hi": 0.023935033590926687,
+   "p_boot": 0.059
+  },
+  "depthctl_layers": [
+   3,
+   2,
+   2,
+   2,
+   3,
+   2,
+   2,
+   3,
+   3,
+   2,
+   3,
+   3,
+   3
+  ]
+ },
+ "fold_random": {
+  "spearman": {
+   "C": 0.6565,
+   "nograph": 0.6403,
+   "depthctl": 0.6426
+  },
+  "C_minus_depthctl": {
+   "a": "C",
+   "b": "depthctl",
+   "delta_spearman": 0.013886519959823596,
+   "ci_lo": 0.004248224061329767,
+   "ci_hi": 0.023357546143524036,
+   "p_boot": 0.004
+  },
+  "depthctl_minus_nograph": {
+   "a": "depthctl",
+   "b": "nograph",
+   "delta_spearman": 0.0023547440374438455,
+   "ci_lo": -0.0033114278383385154,
+   "ci_hi": 0.007931194064295839,
+   "p_boot": 0.422
+  },
+  "C_minus_nograph_H1": {
+   "a": "C",
+   "b": "nograph",
+   "delta_spearman": 0.01624126399726744,
+   "ci_lo": 0.00623286122729439,
+   "ci_hi": 0.02615935542171213,
+   "p_boot": 0.0005
+  },
+  "depthctl_layers": [
+   2,
+   3,
+   2,
+   3,
+   2
+  ]
+ }
+}

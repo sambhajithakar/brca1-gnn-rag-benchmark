@@ -1,0 +1,60 @@
+{
+ "model": "gnn_A_seqonly",
+ "partition": "fold_P0",
+ "subset": "struct",
+ "graph_variant": "heavy8_with_partner",
+ "folds": {
+  "0": {
+   "n_layers": 0,
+   "epochs": [
+    89,
+    52,
+    83,
+    114,
+    131
+   ]
+  },
+  "1": {
+   "n_layers": 0,
+   "epochs": [
+    82,
+    50,
+    84,
+    58,
+    94
+   ]
+  },
+  "2": {
+   "n_layers": 0,
+   "epochs": [
+    225,
+    163,
+    278,
+    87,
+    81
+   ]
+  },
+  "3": {
+   "n_layers": 0,
+   "epochs": [
+    156,
+    260,
+    116,
+    168,
+    92
+   ]
+  },
+  "4": {
+   "n_layers": 0,
+   "epochs": [
+    107,
+    176,
+    190,
+    143,
+    166
+   ]
+  }
+ },
+ "spearman_oof": 0.5978176590025186,
+ "seconds": 9.1
+}

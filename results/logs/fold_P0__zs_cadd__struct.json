@@ -1,0 +1,9 @@
+{
+ "model": "zs_cadd",
+ "partition": "fold_P0",
+ "subset": "struct",
+ "graph_variant": null,
+ "folds": {},
+ "spearman_oof": 0.37968165718611685,
+ "seconds": 0.0
+}

@@ -1,0 +1,9 @@
+{
+ "model": "zs_eve",
+ "partition": "fold_P0",
+ "subset": "struct",
+ "graph_variant": null,
+ "folds": {},
+ "spearman_oof": 0.5130283289555849,
+ "seconds": 0.0
+}

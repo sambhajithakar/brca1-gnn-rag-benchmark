@@ -1,0 +1,38 @@
+{
+ "model": "gnn_C_struct_annot",
+ "partition": "fold_LODO",
+ "subset": "struct",
+ "graph_variant": "heavy8_with_partner",
+ "folds": {
+  "0": {
+   "inner_scores": [
+    0.6048259522120603,
+    0.5838448497847704
+   ],
+   "n_layers": 2,
+   "epochs": [
+    66,
+    300,
+    167,
+    251,
+    201
+   ]
+  },
+  "1": {
+   "inner_scores": [
+    0.539718669302205,
+    0.49735460528624686
+   ],
+   "n_layers": 2,
+   "epochs": [
+    187,
+    59,
+    134,
+    91,
+    53
+   ]
+  }
+ },
+ "spearman_oof": 0.5711600866604635,
+ "seconds": 21.8
+}

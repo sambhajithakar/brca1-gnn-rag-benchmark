@@ -1,0 +1,9 @@
+{
+ "model": "zs_mpnn_llr",
+ "partition": "fold_P0",
+ "subset": "struct",
+ "graph_variant": null,
+ "folds": {},
+ "spearman_oof": 0.43566234273681764,
+ "seconds": 0.0
+}

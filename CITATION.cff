@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this code or these outputs, please cite them as below."
+title: "BRCA1 residue-graph and evidence-retrieval benchmark: code and outputs"
+type: software
+version: 1.0.0
+license: MIT
+repository-code: "https://github.com/sambhajithakar/brca1-gnn-rag-benchmark"
+authors:
+  - family-names: Thakar
+    given-names: Sambhaji Balaso
+    orcid: "https://orcid.org/0000-0002-0423-2015"
+    affiliation: "Aditya BioNova Analytics, Kolhapur, India"
+  - family-names: Ghorpade
+    given-names: Pradnya Namdev
+    orcid: "https://orcid.org/0000-0001-6593-825X"
+    affiliation: "Aditya BioNova Analytics, Kolhapur, India"
+keywords: [BRCA1, variant effect prediction, graph neural network, saturation genome editing, data leakage, retrieval]

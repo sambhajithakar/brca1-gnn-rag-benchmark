@@ -1,0 +1,9 @@
+{
+ "model": "zs_alphamissense",
+ "partition": "fold_LOEO",
+ "subset": "struct",
+ "graph_variant": null,
+ "folds": {},
+ "spearman_oof": 0.5862972932883899,
+ "seconds": 0.0
+}

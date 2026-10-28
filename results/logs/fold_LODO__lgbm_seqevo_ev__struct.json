@@ -1,0 +1,54 @@
+{
+ "model": "lgbm_seqevo_ev",
+ "partition": "fold_LODO",
+ "subset": "struct",
+ "graph_variant": null,
+ "folds": {
+  "0": {
+   "chosen": {
+    "num_leaves": 15,
+    "n_estimators": 200
+   },
+   "inner_scores": [
+    0.621374270272378,
+    0.6200052101189804,
+    0.613577515329396,
+    0.628273183325059,
+    0.6205042666634039,
+    0.6126221982476702
+   ]
+  },
+  "1": {
+   "chosen": {
+    "num_leaves": 7,
+    "n_estimators": 200
+   },
+   "inner_scores": [
+    0.5899175163107897,
+    0.583077173554954,
+    0.5732122802727465,
+    0.584655517705542,
+    0.5725425345659683,
+    0.5649745106763077
+   ]
+  }
+ },
+ "leakage_checks": {
+  "0": {
+   "test_residue_docs": 0,
+   "own_residue_docs": 0,
+   "findlay_docs": 0,
+   "same_variant_docs": 0,
+   "n_retrievals": 281008
+  },
+  "1": {
+   "test_residue_docs": 0,
+   "own_residue_docs": 0,
+   "findlay_docs": 0,
+   "same_variant_docs": 0,
+   "n_retrievals": 276171
+  }
+ },
+ "spearman_oof": 0.5825655441057599,
+ "seconds": 14.3
+}

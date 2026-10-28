@@ -1,0 +1,13 @@
+{
+  "title": "BRCA1 residue-graph and evidence-retrieval benchmark: code and outputs",
+  "upload_type": "software",
+  "description": "Code and generated outputs for the study \"Machine Learning and Graph Neural Networks for BRCA1 Variant Function Prediction: A Leakage-Controlled Evaluation of Evidence Retrieval\" (Thakar SB, Ghorpade PN; manuscript in preparation). Includes dataset harmonisation, structure and residue-graph construction, graph and non-graph models, leakage-controlled evidence retrieval, uncertainty, external validation and verification scripts, with out-of-fold predictions and test statistics. Third-party scores that cannot be redistributed (Findlay et al. 2018 function scores, CADD, phyloP, PolyPhen-2, SIFT, Align-GVGD, EVE) are not included and are regenerated from their original sources by the provided scripts.",
+  "creators": [
+    {"name": "Thakar, Sambhaji Balaso", "orcid": "0000-0002-0423-2015", "affiliation": "Aditya BioNova Analytics"},
+    {"name": "Ghorpade, Pradnya Namdev", "orcid": "0000-0001-6593-825X", "affiliation": "Aditya BioNova Analytics"}
+  ],
+  "license": "MIT",
+  "access_right": "open",
+  "keywords": ["BRCA1", "variant effect prediction", "graph neural network", "saturation genome editing", "data leakage", "retrieval-augmented"],
+  "notes": "Code: MIT. Deposited outputs: CC BY-NC-SA 4.0 (see LICENSE-OUTPUTS.md)."
+}
